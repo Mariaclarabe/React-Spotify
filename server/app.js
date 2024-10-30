@@ -21,7 +21,7 @@ app.get('/artistas', async (req,res) => {
 })
 
 app.get('/artistas/:id', async (req, res) => {
-    const artista = await artistas.findById(req.params.id);
+    const artista = await artista.findById(req.params.id);
     res.status(200).json(artista);
 });
 
