@@ -4,6 +4,6 @@ export default function DetalhesArtista(){
     const { id } = useParams()
 
     return(
-        <p> {id} </p>
+        <p>  </p>
     )
 }
